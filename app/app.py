@@ -19,9 +19,9 @@ nltk.download('stopwords')
 # LOAD TRAINED MODEL + TFIDF VECTORIZER
 # ---------------------------------------------------
 
-model = pickle.load(open("../models/sentiment_model.pkl", "rb"))
+model = pickle.load(open("models/sentiment_model.pkl", "rb"))
 
-vectorizer = pickle.load(open("../models/tfidf_vectorizer.pkl", "rb"))
+vectorizer = pickle.load(open("models/tfidf_vectorizer.pkl", "rb"))
 
 # ---------------------------------------------------
 # HINGLISH NORMALIZATION DICTIONARY
